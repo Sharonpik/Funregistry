@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(56, 59, 64);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.greeting {
+    margin: auto;
+    text-align: center;
+}
+
+.join-link {
+    font-size: large;
+}
+
+/* unvisited link */
+.join-link:link {
+    color: green;
+}
+  
+  /* visited link */
+.join-link:visited {
+    color: green;
+ }
+  
+  /* mouse over link */
+.join-link:hover {
+    color: hotpink;
+}
+  
+  /* selected link */
+.join-link:active {
+    color: hotpink;
+}
+
+.text-input {
+    display: block;
+}
+
+.login-form {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.text-input {
+    width: 30%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: rgb(50, 50, 50) 2px solid;
+    font-size: 2vh;
+}
+
+.submit-button {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    font-size: 2vh;
+}
